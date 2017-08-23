@@ -18,7 +18,7 @@ class Employee
 	end
 	def print_info
 		puts "#{@first_name} #{@last_name} makes #{@salary} a year."
-
+	end
 end 
 
 employee_1 = Employee.new("Jimmy","Stewart",70000,true)
